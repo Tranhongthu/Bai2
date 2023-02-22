@@ -1,0 +1,81 @@
+body{
+    font-size: 15px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+}
+.header{
+    background-color: #E6EBEB ;
+    height: 50px;
+    margin-left: 10px;
+    border-top: 1px solid;
+}
+
+.navbar{
+    background-color: #E6EBEB;
+    overflow: hidden;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+    margin: 10px;
+    border-right: 1px solid black;
+    font-weight: bolder;
+}
+.row{
+    display: flex;
+}
+.side{
+    flex: 34%;
+    margin: 10px;
+    padding: 4px;
+    border: 6px solid #E6EBEB;
+    /* background-color: aqua; */
+}
+.main{
+    flex:70%;
+    margin: 10px;
+    /* background-color: red; */
+}
+.hi{
+    display: flex;
+}
+.hi3{
+    color: #5e6363;
+    font-weight: 700;
+}
+.hi2{
+    margin-right: 12px;
+    font-weight: bold;
+}
+.some{
+    color: #5e6363;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.one{
+    color: #5e6363;
+    font-weight: bold;
+}
+.fun{
+    position: relative;
+    bottom: 20px;
+}
+.funh{
+    position: relative;
+    bottom: 41px;
+}
+.fung{
+    position: relative;
+    bottom: 63px;
+}
+.funf{
+    position: relative;
+    bottom: 84px;
+}
